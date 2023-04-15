@@ -1,0 +1,17 @@
+version: '3'
+services:
+  recommender:
+    container_name: recommender-container
+    build: .
+    entrypoint: python botify/server.py
+    ports:
+      - '5050:5050'
+    expose:
+      - 5050
+    depends_on:
+      - redis
+  redis:
+    image: redis
+    container_name: redis-container
+    ports:
+      - "6379:6379"
