@@ -1,8 +1,8 @@
 # made_recsys
-botify service developed at MADE RecSys course
+botify service developed at MADE RecSys course.
 
 # Результаты
-Удалось улучшить ключевую метрику
+Удалось улучшить ключевую метрику.
 
 ![Текст с описанием картинки](image.jpg)
 
